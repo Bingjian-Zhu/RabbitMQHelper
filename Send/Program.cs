@@ -96,7 +96,7 @@ namespace Send
             }
             catch
             {
-                //RabbitMQ.Client.Exceptions.BrokerUnreachableException:
+                //RabbitMQ.Client.Exceptions.BrokerUnreachableException: 
                 //When the configured hostname was not reachable.
                 return false;
             }
